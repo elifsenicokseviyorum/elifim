@@ -7,6 +7,8 @@ This is a romantic personal website built as a love letter to someone special. T
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+Color scheme: Modern blue-purple-gold theme instead of pink theme.
+Special requests: Personal touches for "Elif", humorous content, dates and counters, fortune telling features.
 
 ## System Architecture
 
@@ -34,17 +36,37 @@ Preferred communication style: Simple, everyday language.
 - **Migrations**: Drizzle Kit for database schema management
 - **In-Memory Fallback**: MemStorage class for development without database
 
+## Recent Changes (January 2025)
+
+### Major Updates:
+- **Color Scheme**: Changed from pink theme to modern blue-purple-gold theme
+- **Interactive Introduction**: Added splash screen with "Fıstığım :)" button and humorous loading sequence
+- **Personalization**: Updated content for "Elif" with personal touches and inside jokes
+- **New Features**: 
+  - Love counter showing days together since April 16, 2024
+  - Countdown to birthday (August 11)
+  - Fortune telling section with Turkish cultural references
+  - Tarot card reading with personalized messages
+- **Content Updates**: Modified photo gallery descriptions to be more personal and humorous
+- **Navigation**: Added new sections for counters, fortune telling, and tarot
+
 ## Key Components
 
 ### Frontend Components
-1. **Navigation**: Smooth scrolling navigation between sections
-2. **FloatingHearts**: Animated heart effects across the page
-3. **PhotoGallery**: Responsive image gallery with romantic descriptions
-4. **Timeline**: Interactive timeline showing relationship milestones
-5. **Reasons**: Grid layout showing reasons for love
-6. **LoveLetters**: Collection of romantic messages
-7. **MusicPlayer**: Interactive music player with romantic playlist
-8. **ContactForm**: Form for leaving messages with validation
+1. **SplashButton**: Initial "Fıstığım :)" button with surprise animation
+2. **LoadingScreen**: Animated loading sequence with joke ("Bir şey olacak mı sandın?" → "Şaka Şaka!")
+3. **Navigation**: Smooth scrolling navigation between sections
+4. **FloatingHearts**: Animated heart effects across the page
+5. **LoveCounter**: Real-time counters showing days together and countdown to birthday
+6. **PhotoGallery**: Responsive image gallery with humorous, personal descriptions
+7. **Timeline**: Interactive timeline showing relationship milestones
+8. **Reasons**: Grid layout showing reasons for love
+9. **LoveLetters**: Collection of romantic messages
+10. **MusicPlayer**: Interactive music player with romantic playlist
+11. **FortuneTeller**: Humorous fortune telling feature with Turkish cultural references
+12. **TarotCards**: Interactive tarot card reading with personalized messages
+13. **ContactForm**: Form for leaving messages with validation
+14. **AnimatedHeart**: Central animated heart with floating smaller hearts
 
 ### Backend Components
 1. **Routes**: RESTful API endpoints for message CRUD operations

@@ -45,7 +45,7 @@ export default function Reasons() {
     <section id="reasons" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-script text-5xl text-pink-500 mb-4">Seni Sevmemin Nedenleri</h2>
+          <h2 className="font-script text-5xl text-blue-500 mb-4">Seni Sevmemin Nedenleri</h2>
           <p className="text-xl text-gray-600">Kalbimdeki her his, sana olan aşkımın bir parçası</p>
         </div>
         
@@ -58,9 +58,9 @@ export default function Reasons() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="card-hover bg-gradient-to-br from-pink-50 to-purple-50 rounded-2xl p-8 text-center"
+                className="card-hover bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-8 text-center"
               >
-                <div className="w-16 h-16 bg-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
                   <reason.icon className="text-white" size={24} />
                 </div>
                 <h3 className="font-script text-2xl love-reason mb-3">{reason.title}</h3>

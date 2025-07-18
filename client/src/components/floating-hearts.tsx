@@ -40,7 +40,7 @@ export default function FloatingHearts() {
             animate={{ y: "-100px", opacity: [0, 1, 1, 0] }}
             exit={{ opacity: 0 }}
             transition={{ duration: heart.duration, ease: "easeOut" }}
-            className="absolute text-pink-500"
+            className="absolute text-blue-500"
             style={{
               left: `${heart.x}%`,
               fontSize: `${heart.size}px`,

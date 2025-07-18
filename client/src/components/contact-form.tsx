@@ -64,7 +64,7 @@ export default function ContactForm() {
     <section id="contact" className="py-20 bg-gradient-to-r from-pink-50 to-purple-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-script text-5xl text-pink-500 mb-4">Bana Mesaj Gönder</h2>
+          <h2 className="font-script text-5xl text-blue-500 mb-4">Bana Mesaj Gönder</h2>
           <p className="text-xl text-gray-600">Kalbindeki her şeyi benimle paylaş</p>
         </div>
         
@@ -87,7 +87,7 @@ export default function ContactForm() {
                       <FormControl>
                         <Input 
                           placeholder="Sen kimsin?" 
-                          className="border-pink-200 focus:ring-pink-500"
+                          className="border-blue-200 focus:ring-blue-500"
                           {...field}
                         />
                       </FormControl>
@@ -104,7 +104,7 @@ export default function ContactForm() {
                       <FormLabel className="text-gray-700 font-semibold">Mesaj Konusu</FormLabel>
                       <Select onValueChange={field.onChange} value={field.value}>
                         <FormControl>
-                          <SelectTrigger className="border-pink-200 focus:ring-pink-500">
+                          <SelectTrigger className="border-blue-200 focus:ring-blue-500">
                             <SelectValue placeholder="Bir konu seçin" />
                           </SelectTrigger>
                         </FormControl>
@@ -130,7 +130,7 @@ export default function ContactForm() {
                         <Textarea 
                           placeholder="Kalbindeki her şeyi yaz..." 
                           rows={6}
-                          className="border-pink-200 focus:ring-pink-500"
+                          className="border-blue-200 focus:ring-blue-500"
                           {...field}
                         />
                       </FormControl>
@@ -143,7 +143,7 @@ export default function ContactForm() {
                   <Button
                     type="submit"
                     disabled={createMessage.isPending}
-                    className="flex-1 bg-pink-500 hover:bg-pink-600 text-white"
+                    className="flex-1 bg-blue-500 hover:bg-blue-600 text-white"
                   >
                     <Heart className="mr-2" size={20} />
                     {createMessage.isPending ? "Gönderiliyor..." : "Aşkla Gönder"}
@@ -151,7 +151,7 @@ export default function ContactForm() {
                   <Button
                     type="button"
                     variant="outline"
-                    className="flex-1 text-pink-500 border-pink-500 hover:bg-pink-50"
+                    className="flex-1 text-blue-500 border-blue-500 hover:bg-blue-50"
                   >
                     <Gift className="mr-2" size={20} />
                     Sürpriz Ekle

@@ -34,10 +34,10 @@ const letters = [
 
 export default function LoveLetters() {
   return (
-    <section id="letters" className="py-20 bg-gradient-to-r from-pink-50 to-purple-50">
+    <section id="letters" className="py-20 bg-gradient-to-r from-blue-50 to-purple-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-script text-5xl text-pink-500 mb-4">Kalbimdeki Mektuplar</h2>
+          <h2 className="font-script text-5xl text-blue-500 mb-4">Kalbimdeki Mektuplar</h2>
           <p className="text-xl text-gray-600">Sana yazmak istediğim her şey</p>
         </div>
         
@@ -53,11 +53,11 @@ export default function LoveLetters() {
                 className="card-hover bg-white rounded-2xl p-8 shadow-lg"
               >
                 <div className="flex items-center mb-6">
-                  <div className="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center mr-4">
+                  <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mr-4">
                     <letter.icon className="text-white" size={20} />
                   </div>
                   <div>
-                    <h3 className="font-script text-2xl text-pink-500">{letter.title}</h3>
+                    <h3 className="font-script text-2xl text-blue-500">{letter.title}</h3>
                     <span className="text-gray-500 text-sm">{letter.subtitle}</span>
                   </div>
                 </div>
@@ -65,7 +65,7 @@ export default function LoveLetters() {
                   {letter.content}
                 </p>
                 <div className="text-right">
-                  <span className="text-pink-500 font-script text-lg">Seni seven ♥</span>
+                  <span className="text-blue-500 font-script text-lg">Seni seven ♥</span>
                 </div>
               </motion.div>
             ))}

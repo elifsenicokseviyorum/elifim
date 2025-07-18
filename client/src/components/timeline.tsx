@@ -43,7 +43,7 @@ export default function Timeline() {
     <section id="timeline" className="py-20 bg-gradient-to-r from-pink-50 to-purple-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="font-script text-5xl text-pink-500 mb-4">Aşk Hikayemiz</h2>
+          <h2 className="font-script text-5xl text-blue-500 mb-4">Aşk Hikayemiz</h2>
           <p className="text-xl text-gray-600">Birlikte yazdığımız en güzel hikaye</p>
         </div>
         
@@ -59,14 +59,14 @@ export default function Timeline() {
                 className="flex items-center space-x-8"
               >
                 <div className="flex-shrink-0 w-32 text-right">
-                  <span className="text-pink-500 font-semibold">{item.date}</span>
+                  <span className="text-blue-500 font-semibold">{item.date}</span>
                 </div>
                 <div className={`flex-grow rounded-2xl p-6 shadow-lg card-hover relative timeline-item ${
                   item.isSpecial 
-                    ? 'bg-pink-500 text-white' 
+                    ? 'bg-blue-500 text-white' 
                     : 'bg-white'
                 }`}>
-                  <h3 className="font-script text-2xl mb-2 text-pink-500">
+                  <h3 className="font-script text-2xl mb-2 text-blue-500">
                     {item.title}
                   </h3>
                   <p className={item.isSpecial ? 'text-white' : 'text-gray-600'}>
